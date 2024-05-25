@@ -1,0 +1,110 @@
+.banner-background {
+  background-image: url("../../../assets/Group.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 55px;
+}
+.details-font {
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+}
+.bgSvgCss {
+  z-index: 1;
+}
+.banner-color-pattern1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #091e6f;
+  filter: blur(170px);
+  z-index: 1;
+  top: 10%;
+  left: 0;
+  transform: translateX(100%);
+  position: absolute;
+}
+.banner-color-pattern2 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: #007ec8;
+  filter: blur(150px);
+  z-index: -1;
+  top: 10%;
+  left: 0;
+  transform: translateX(210%);
+  position: absolute;
+}
+.div-quotation {
+  border-radius: 13px;
+  background: rgba(2, 86, 151, 0.78);
+  padding: 16px;
+  top: 60%;
+  left: 25%;
+  transform: translateX(100%);
+  position: absolute;
+}
+.btn-design {
+  border: 2px solid white;
+  border-radius: 42px;
+  padding: 21px 52px;
+  font-weight: bold;
+}
+.btn-design:hover {
+  background: linear-gradient(90deg, #0082c9 0%, #0052c4 100%);
+  box-shadow: 0 8px 16px 0 linear-gradient(90deg, #0082c9 0%, #0052c4 100%);
+  border: none;
+}
+@media (max-width: 2000px) {
+  .banner-color-pattern2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #007ec8;
+    filter: blur(150px);
+    z-index: -1;
+    top: 10%;
+    left: 15%;
+    transform: translateX(210%);
+    position: absolute;
+  }
+
+  .div-quotation {
+    border-radius: 13px;
+    background: rgba(2, 86, 151, 0.78);
+    padding: 16px;
+    top: 50%;
+    left: 30%;
+    transform: translateX(100%);
+    position: absolute;
+  }
+}
+
+@media (max-width: 1600px) {
+  .banner-color-pattern2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #007ec8;
+    filter: blur(150px);
+    z-index: -1;
+    top: 10%;
+    left: 0;
+    transform: translateX(210%);
+    position: absolute;
+  }
+  .div-quotation {
+    border-radius: 13px;
+    background: rgba(2, 86, 151, 0.78);
+    padding: 16px;
+    top: 60%;
+    left: 25%;
+    transform: translateX(100%);
+    position: absolute;
+  }
+}

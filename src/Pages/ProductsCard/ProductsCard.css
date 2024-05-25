@@ -1,0 +1,60 @@
+.title-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 55px;
+  color: #ffffff;
+}
+.clotheDesign {
+  font-family: "Poppins", sans-serif;
+  font-size: 47px;
+  position: relative;
+  transform: rotate(-90deg);
+  bottom: 170px;
+  left: 35px;
+}
+
+.circleDesign {
+  width: 200px;
+  height: 200px;
+  border: 15px solid #0055c4;
+  border-radius: 50%;
+  background-color: transparent;
+  clip-path: inset(50% 0 0 50%);
+  filter: blur(5px);
+  position: relative;
+  bottom: 210px;
+  left: 1080px;
+}
+.circleDesign2 {
+  width: 200px;
+  height: 200px;
+  border: 15px solid #0055c4;
+  border-radius: 50%;
+  background-color: transparent;
+  clip-path: inset(70% 0 0 70%);
+  filter: blur(5px);
+  position: relative;
+  bottom: 450px;
+  left: 1045px;
+}
+.productHover:hover .clotheDesign {
+  display: none;
+}
+.productHover {
+  position: relative;
+}
+.productHover img {
+  display: block;
+}
+
+.productHover:hover::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  background-image: url("../../assets/Arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "clotheName": "Sweatshirts",
+    "img": "https://i.ibb.co/TwJ2ZN9/Rectangle-201-2.png"
+  },
+  {
+    "id": 2,
+    "clotheName": "T-shirts",
+    "img": "https://i.ibb.co/6XzNVW9/Rectangle-201-1.png"
+  },
+  {
+    "id": 3,
+    "clotheName": "Hoodies",
+    "img": "https://i.ibb.co/sq5c4cT/Rectangle-201.png"
+  },
+  {
+    "id": 4,
+    "clotheName": "Jackets",
+    "img": "https://i.ibb.co/BKjmpHB/Group-186.png"
+  },
+  {
+    "id": 5,
+    "clotheName": "Denim",
+    "img": "https://i.ibb.co/JkmKHLF/Rectangle-201.png"
+  }
+]
