@@ -1,0 +1,30 @@
+.bg-color {
+  background: linear-gradient(
+    0deg,
+    #000 0%,
+    #071137 31.5%,
+    #091544 56.5%,
+    #0b1746 99%
+  );
+}
+.title-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+}
+.reviewP {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+
+.details-font {
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  color: #f9fafb;
+}
+.reviewClass {
+  padding: 19px;
+  border-radius: 11px;
+  border: 2px solid #b4b4b4;
+  width: 281px;
+  flex-shrink: 0;
+}

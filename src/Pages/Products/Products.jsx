@@ -10,9 +10,9 @@ const Products = () => {
       .then((data) => setProducts(data));
   });
   return (
-    <div className="bg-[#0B1746]">
-      <div className="max-w-[1250px] mx-auto">
-        <p className="title-font mb-16">
+    <div className="bg-[#0B1746] ">
+      <div className="max-w-[1250px] mx-auto ">
+        <p className="title-font mb-16 pt-24">
           <span className="text-[#AEEE6A]">Offering </span>a diverse range of{" "}
           <br />
           products.

@@ -1,0 +1,16 @@
+.footer-background {
+  background-image: url("../../../assets/GroupFooter.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-design {
+  padding-top: 117px;
+  padding-bottom: 151px;
+}
+.footer-Title {
+  font-family: "Poppins", sans-serif;
+}
+ul p {
+  font-family: "Farro";
+}

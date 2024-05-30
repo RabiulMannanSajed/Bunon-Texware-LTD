@@ -1,0 +1,40 @@
+.about-bg {
+  background: linear-gradient(180deg, #0b1746 0%, #070f2d 55.95%, #000 100%);
+}
+.aboutImg {
+  position: absolute;
+  width: 450px;
+  height: 298px;
+  border-radius: 10px;
+  box-shadow: 10px rgba(0, 0, 0, 0.06);
+  z-index: 3;
+}
+.about-journey-title-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+}
+.about-journey-details-font {
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  color: #f9fafb;
+}
+.aboutBar1 {
+  position: absolute;
+  top: 1000px;
+  z-index: 1;
+}
+.aboutBar2 {
+  position: absolute;
+  top: 1250px;
+  z-index: 1;
+  left: 70px;
+}
+.about-journey-div-quotation {
+  border-radius: 13px;
+  background: rgba(2, 86, 151, 0.78);
+  padding: 16px;
+  top: 1220px;
+  right: 1470px;
+  transform: translateX(100%);
+  position: absolute;
+}

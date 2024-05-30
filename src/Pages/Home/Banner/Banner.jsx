@@ -53,8 +53,10 @@ const Banner = () => {
             Our mission is to transform the way you design
           </p>
         </div>
-        <p className="details-font text-[#AEEE6A]">
-          Partnering with leading global brands.
+        <p className="details-font ">
+          <span className="text-[#AEEE6A]">
+            Partnering with leading global brands.
+          </span>
         </p>
       </div>
     </div>

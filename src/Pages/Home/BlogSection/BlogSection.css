@@ -1,0 +1,18 @@
+.blogBg {
+  background: linear-gradient(180deg, #091442 0%, #002f6d 100%);
+}
+.title-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+}
+.whyUs {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 39px;
+  color: #009bf3;
+}
+.parallelogram {
+  width: 500px;
+  height: 50px;
+  transform: skew(-20deg);
+  background: #555;
+}

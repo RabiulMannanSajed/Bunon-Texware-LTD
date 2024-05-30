@@ -1,0 +1,68 @@
+.about-banner-background {
+  background-image: url("../../../assets/aboutBanner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-title-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+}
+.about-details-font {
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  color: #f9fafb;
+}
+.about-quotation-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: #f9fafb;
+}
+.about-div-quotation {
+  border-radius: 13px;
+  background: rgba(2, 86, 151, 0.78);
+  padding: 16px;
+  top: 25%;
+  left: 26%;
+  transform: translateX(100%);
+  position: absolute;
+}
+.main-img {
+  width: 555px;
+  height: 397px;
+  border-radius: 16px;
+  border: 3px solid #fff;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 129, 201, 0.12) 0%,
+    rgba(0, 51, 161, 0.75) 100%
+  );
+}
+.select-img {
+  width: 124px;
+  height: 157.604px;
+}
+.img1 {
+  position: absolute;
+  top: 520px;
+  right: 290px;
+  z-index: 3;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+.img2 {
+  position: absolute;
+  top: 480px;
+  right: 200px;
+  z-index: 2;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+.img3 {
+  position: absolute;
+  top: 400px;
+  right: 140px;
+  z-index: 1;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
