@@ -1,0 +1,35 @@
+.contactBg {
+  background: linear-gradient(180deg, #0b1746 0%, #070f2d 55.95%, #000 100%);
+}
+.content-title-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  text-align: center;
+}
+.content-details-font {
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  text-align: center;
+  color: #f9fafb;
+  margin-bottom: 27px;
+}
+.contactForm {
+  border-radius: 15px;
+  background: rgba(1, 78, 182, 0.34);
+}
+.contact-input {
+  border-radius: 7px;
+  background: rgba(0, 76, 192, 0.37);
+  padding: 12px;
+}
+.contact-text {
+  font-family: "Poppins", sans-serif;
+  color: #aeee6a;
+}
+.contact-btn {
+  border-radius: 7px;
+  background: #aeee6a;
+  width: 173px;
+  height: 48px;
+  box-shadow: 5px 4px 17.5px 0px #038e88;
+}

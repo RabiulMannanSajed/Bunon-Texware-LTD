@@ -1,3 +1,45 @@
 .sampleBg {
   background: linear-gradient(180deg, #0b1746 0%, #002f6d 100%);
 }
+.policy-title-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+}
+.policy-details-font {
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  color: #f9fafb;
+  margin-top: 21px;
+}
+.policy-btn-details {
+  width: 550px;
+  border-radius: 13px;
+  background: rgba(2, 86, 151, 0.78);
+  padding: 16px;
+}
+.policy-btn {
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  margin-right: 35px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  padding: 10px;
+}
+/* .policy-btn:hover {
+  color: #aeee6a;
+  background: #000;
+  border-radius: 9px;
+  padding: 10px;
+} */
+.clicked {
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  margin-right: 35px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  padding: 10px;
+  color: #aeee6a;
+  background: #000;
+  border-radius: 9px;
+  padding: 10px;
+}
